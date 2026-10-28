@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored FFmpeg runtime copied from node_modules at dev/build time.
+    "public/ffmpeg/**",
   ]),
 ]);
 
